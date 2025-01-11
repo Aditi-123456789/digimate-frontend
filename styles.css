@@ -12,6 +12,7 @@ header {
     color: white;
     padding: 10px;
     background-color: #ddd;
+    max-height: 120px;
 }
 
 .navbar {
@@ -27,11 +28,12 @@ header {
     font-size: 1.5em;
     font-weight: bold;
     max-height: 160px;
+   
     
 }
 
 .quote-btn {
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
     background-color: #06003b;
     color: white;
     border: none;
@@ -48,7 +50,7 @@ header {
 .menu {
     font-size: 2em;
     cursor: pointer;
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
 }
 
 .hero-section {
@@ -108,7 +110,7 @@ p {
     cursor: pointer;
     font-size: 1em;
     border-radius: 5px;
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
 }
 
 .cta-btn:hover {
@@ -143,7 +145,7 @@ footer {
     font-size: 2em;
     margin-bottom: 20px;
     color: white;
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
 }
 
 .services-container {
@@ -219,7 +221,7 @@ footer {
 }
 body {
     margin: 0;
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
 }
 
 .hero-section {
@@ -227,7 +229,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
     
     color: white;
     padding: 50px 20px;
@@ -263,7 +265,7 @@ body {
 .marquee span {
     display: inline-block;
     padding-left: 100%; 
-    animation: marquee 10s linear infinite;
+    animation: marquee 25s linear infinite;
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.2);
     
@@ -283,7 +285,7 @@ body {
         }
         body {
             margin: auto;
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family:  'Calibri', sans-serif;
             overflow: auto;
             background: linear-gradient(315deg, rgb(44, 0, 101) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgb(12, 1, 22) 98%);
             animation: gradient 15s ease infinite;
@@ -354,7 +356,7 @@ body {
             background-color: rgba(48,238,226,1); /* Dark theme matching your site */
             color: #06003b;
             padding: 40px 20px;
-            font-family: "Gill Sans", sans-serif;
+            font-family:  'Calibri', sans-serif;
             width: 100%; /* Ensures the footer spans the entire width */
             margin: 0; /* Removes any default margins */
         }
@@ -437,7 +439,7 @@ body {
             color: #06003b;
         }
 .h1{
-    font-family: "Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
 }   
 .dropdown-menu {
     display: none; 
@@ -518,7 +520,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #333;
-    font-family:"Gill Sans", sans-serif;
+    font-family:  'Calibri', sans-serif;
     line-height: 1.8;
 }
 
