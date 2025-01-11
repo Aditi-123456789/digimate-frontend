@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Request a Quote</title>
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family:"Gill Sans", sans-serif;
 
             color: #fff;
             background-color: #002a3b;
@@ -39,6 +40,7 @@
         }
 
         .form-container {
+            font-family:"Gill Sans", sans-serif;
             background: linear-gradient(135deg, #3a9fc4, #002a3b, white);
             color: #000;
             padding: 20px;
@@ -48,18 +50,21 @@
         }
 
         .form-container h2 {
+            font-family:"Gill Sans", sans-serif;
             margin-bottom: 1rem;
             font-size: 1.5rem;
             text-align: center;
         }
 
         .form-container form {
+            font-family:"Gill Sans", sans-serif;
             display: flex;
             flex-direction: column;
         }
 
         .form-container input,
         .form-container textarea {
+            font-family:"Gill Sans", sans-serif;
             font-size: 1rem;
             padding: 10px;
             margin-bottom: 15px;
@@ -69,6 +74,7 @@
         }
 
         .form-container input[type="submit"] {
+            font-family:"Gill Sans", sans-serif;
             background-color: #007bff;
             color: #fff;
             border: none;
@@ -85,6 +91,7 @@
             font-size: 0.9rem;
             margin-top: -10px;
             margin-bottom: 10px;
+            font-family:"Gill Sans", sans-serif;
         }
 
         @media (max-width: 768px) {
@@ -228,7 +235,28 @@
 </head>
 
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo_trans.png" alt="Logo">
+            </div>
+            <a href="request_a_quote.html">
+                <button class="quote-btn">REQUEST A QUOTE</button>
+            </a>
+            <div class="menu">MENU
 
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="index.html">HOME</a>
+                    <a href="index.html#services">SERVICES</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="request_a_quote.html">CONTACT</a>
+                    <a href="blog.html">BLOG</a>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
 
     <main>
         <div class="container">
